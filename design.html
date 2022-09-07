@@ -13,22 +13,21 @@
         
         <script src="js/model.js"></script>
         <script src="js/view.js"></script>
-        <Title>DMS Travel</Title>    
+        <Title>DMS Travel</Title>   
     </head>
     <body>
-    
-
-
+        
     <div id="fb-root"></div>
+
+    
     <nav id="header"  class="navbar navbar-default">
         <div class="container col-lg-">
-
             <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">DMS Travel </a></li>
-                <li ><a href="design.html" id="heading">Design </a></li>
+                <li><a href="index.html" id="heading">DMS Travel </a></li>
+                <li class="active"><a href="design.html" >Design </a></li>
                 <li ><a href="about.html" id="heading">About the Author</a></li>
             </ul>
-           <ul class="nav navbar-nav navbar-right">
+         <ul class="nav navbar-nav navbar-right">
                <li id="status" class="navbar-text heading">Please login to Facebook in order to proceed.</li>
                <li  class="navbar-text"><div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="true" onlogin="model.checkLoginState();" ></div></li>
                <li class ="navbar-text"><a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=DMS%20Travel" data-size="large">Tweet</a></li>
@@ -37,41 +36,36 @@
     </nav>      
     
     <div id="splash">
-        <div class="container col-lg-">
-            
-            <div id="animation"> <img id="animate" src=style/fader2.jpg> </div><p>Welcome to DMS travel</p>
+    </div>
+        
+    <div class="container">   
+       <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Design principles</h3>
+          </div>
+          <div  class="panel-body">
+                <h2>For this task, I utilised the following 3 design principles: Contract, Repetition & Interactivity.</h2>
+
+                
+                <h1>Contrast</h1> 
+                    
+                    <p>For the design principle of contrast, I implemented it by using contrasting colours for the backgrounds of my website, as well as for the text.  The primary colours I used were “Facebook Blue”, colour code: #3b5998, and plain white.  I also used silver as the intermediary text colour.</p>
+                
+                <h1>Repetition</h1>
+                    
+                    <p>For the design principle of repetition, I decided to utilise the same navigation layout (global nav bar with clickable links to each page) on each page, allowing them to be accessed from all areas.</p>
+                
+                <h1>Interactivity</h1>
+                    
+                    <p>Finally, for the design principle of Interactivity, I made sure that the global navigation bar had the appropriate section highlighted and clickable so that the user knew where they were located.</p>
+
+          </div>
         </div>
     </div>
-        
-    <div class="container-fluid" id="content" style="display:none">   
-        <div class="col-xs-12 col-sm-9"> 
-            <div class="page-header"><h3>Top Australian Destinations from DMS Travel <small id="description">Loading</small> </h3></div>
-               
-            <div class="row" id="albums"> </div>
-            <div class="clear"></div>
-        </div> 
-        
-        <div class="col-xs-6 col-sm-3">   
-
-           <div class="panel panel-primary">
-              <div class="panel-heading">
-                <h3 class="panel-title">Featured Comments</h3>
-              </div>
-              <div  id="feed" class="panel-body">
-                Searching for comments
-              </div>
-            </div>
-        </div>  
-        
-    </div>
-    
-
-    <div id="footer" class="navbar navbar-default"> <span id="author">By Ferguson McBryde s2917560 for DMS travel, no rights reserved</span></div>
+    <div id="footer"> <span id="author">By Ferguson McBryde s2917560 for DMS travel, no rights reserved</span></div>
  <script src="lightbox2-master/src/js/lightbox.js"></script> 
  <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
 </body>
 
 </html>
